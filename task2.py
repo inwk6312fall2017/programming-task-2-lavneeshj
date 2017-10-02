@@ -4,7 +4,7 @@ def assault(f):
 	for i in f:
 		print(i.strip())
 		crime_count = 0
-		if i.strip() == "assault":
+		if i.strip() == "ASSAULT":
 			crime_count+=1
 		else:
 			return crime_count
