@@ -1,15 +1,12 @@
 a = open('Crime.csv')
 
-def assault(f):
-	for i in f:
-		print(i.strip())
-		crime_count = 0
-		if i.strip() == "ASSAULT":
-			crime_count+=1
-		else:
-			return crime_count
+def assault(file):
+	for line in file:
+		
+		sub = "ASSAULT"
 
-	print('crime count is',crime_count)
+
+	print('crime count is',counter.sub)
 
 assault(a)
 	
