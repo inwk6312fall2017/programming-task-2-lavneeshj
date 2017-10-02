@@ -1,7 +1,7 @@
 a = open('Crime.csv')
 
-def assault(a):
-	for i in a:
+def assault(f):
+	for i in f:
 		print(i.strip())
 		crime_count = 0
 		if i.strip() == "assault":
@@ -11,7 +11,7 @@ def assault(a):
 
 	print('crime count is',crime_count)
 
-
+assault(a)
 	
 	
 
