@@ -6,7 +6,7 @@ def assault(file):
 		sub = "ASSAULT"
 
 
-	print('crime count is',counter.sub)
+	print('crime count is',counter.sub())
 
 assault(a)
 	
