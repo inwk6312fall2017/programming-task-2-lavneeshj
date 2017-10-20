@@ -1,7 +1,8 @@
 a=open('crime.csv')
 
 for i in a:
-	print(i)		
+	r=i.strip()
+	f=r.count('ASSAULT')
 
-print(type(i))
 
+print(f)
